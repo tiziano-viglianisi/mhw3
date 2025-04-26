@@ -346,6 +346,9 @@ function gobackmusica(event){
     const welcome= document.querySelector("#welcome");
 
     musicauniversitaria.classList.add("hidden");
+    while (musicabox.firstChild) {
+        musicabox.removeChild(musicabox.firstChild);
+    }
     musicabox.classList.add("hidden");
     if(sceltamininav && sceltamininav.classList.contains("hidden")){
         sceltamininav.classList.remove("hidden");
