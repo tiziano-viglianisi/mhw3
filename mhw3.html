@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title>
+            Studium UniCT
+        </title>
+        <link rel="stylesheet" href="mhw3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet">
+        <link rel="shortcut icon" href="https://studium.unict.it/dokeos/2025/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="mhw3.js" defer></script>
+    </head>
+    
+
+    <body>
+        <div id="menutendina" class="hidden">
+            <img id=studiumimage src="studium.png">
+            <div class="anno_accademico_group">
+                <h3 class="anno_accademico">
+                    <img src="calendario.png"> ANNO ACCADEMICO
+                </h3>
+                <select class="anno_accademico_value" name="annoacc" onchange=""><option value="/dokeos/2025" selected="">2024/2025</option><option value="/dokeos/2024">2023/2024</option><option value="/dokeos/2023">2022/2023</option><option value="/dokeos/2022">2021/2022</option><option value="/dokeos/2021">2020/2021</option><option value="https://studiumarchive.unict.it/dokeos/2020">2019/2020</option><option value="http://studiumarchive.unict.it/dokeos/2019">2018/2019</option><option value="http://studiumarchive.unict.it/dokeos/2018">2017/2018</option><option value="http://studium2.unict.it/dokeos/2017">2016/2017</option><option value="http://studium2.unict.it/dokeos/2016">2015/2016</option><option value="http://studium2.unict.it/dokeos/2015">2014/2015</option>
+                </select>
+            </div>
+                <div class="accesso_utenti">
+                    <img src="login.png"> ACCESSO UTENTI
+                </div>
+                <div class="login">
+                    <div class="nome_utente-passw uspasstend">
+                        <img src="username.png"> NOME UTENTE
+                    </div>
+                    <input class="casella uspasstend" type="text">
+                    <div class="nome_utente-passw uspasstend">
+                        <img src="password.png"> PASSWORD
+                    </div>
+                    <input class="casella uspasstend" type="password">
+                </div>
+                <div class="flex_entra">
+                    <div class="entra">
+                        <img src="entra.png">
+                    </div>
+                </div>
+            <h3 class="in_evidenza" id="evidenzatendina">
+                <img src="evidenza.png"> IN EVIDENZA
+            </h3>
+            <div class="evidence_box hidden" >
+                <div id="raw1list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Insegnamenti con Teams </div></div>
+                <div id="raw2list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Attivazione Insegnamenti </div></div>
+                <div id="raw3list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Portale UniCT </div></div>
+                <div id="raw4list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Portale Studenti </div></div>
+                <div id="raw5list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Portale Docenti </div></div>
+                <div id="raw6list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial Studenti </div></div>
+                <div id="raw7list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial Docenti </div></div>
+                <div id="raw8list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial export e import materiale didattico </div></div>
+                <div id="raw9list2"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial prenotazioni </div></div>
+            </div>
+            <div class="actions"><b>LOGIN STUDENTI</b><br>
+                il login degli studenti deve avvenire con le credenziali (Codice Fiscale e password) del nuovo portale studenti Smart_edu. Se non è stata impostata una password, fare accesso al portale studenti con SPID o CIE e impostarla tramite le impostazioni.
+            </div>
+            <div class="mobileapps">
+                <h3 class="tablet_title">
+                    <img src="smartphone.png"> App Mobile
+                </h3>
+                <div class="logocnt">
+                    <a href="https://play.google.com/store/apps/details?id=unict.cea.studium&amp;hl=it">
+                        <img class="mktlogo" src="play-store.png">
+                    </a>
+                    <a href="https://apps.apple.com/it/app/studium-unict/id1510024640">
+                        <img class="mktlogo" src="app-store.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div id="header">
+                    <span id="burger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </span>
+                    <a href="mhw3.html" id="home" data-string="Torna alla home page">
+                        <img id=loghino src="unict-logo2.png">
+                        <span id="logone"><h1 id="studiumlogo">Studium UniCT</h1> </span>
+                    </a>
+            </div>
+            <div id="main">
+                <div id="content">
+                    <div class="menu">
+                        <div class="group">
+                            <div class="anno_accademico_group">
+                                <h3 class="anno_accademico">
+                                    <img src="calendario.png"> ANNO ACCADEMICO
+                                </h3>
+                                <select class="anno_accademico_value" name="annoacc" onchange=""><option value="/dokeos/2025" selected="">2024/2025</option><option value="/dokeos/2024">2023/2024</option><option value="/dokeos/2023">2022/2023</option><option value="/dokeos/2022">2021/2022</option><option value="/dokeos/2021">2020/2021</option><option value="https://studiumarchive.unict.it/dokeos/2020">2019/2020</option><option value="http://studiumarchive.unict.it/dokeos/2019">2018/2019</option><option value="http://studiumarchive.unict.it/dokeos/2018">2017/2018</option><option value="http://studium2.unict.it/dokeos/2017">2016/2017</option><option value="http://studium2.unict.it/dokeos/2016">2015/2016</option><option value="http://studium2.unict.it/dokeos/2015">2014/2015</option>
+                                </select>
+                            </div>
+                                <div class="accesso_utenti">
+                                    <img src="login.png"> ACCESSO UTENTI
+                                </div>
+                                <div class="login">
+                                    <div class="nome_utente-passw">
+                                        <img src="username.png"> NOME UTENTE
+                                    </div>
+                                    <input class="casella" type="text">
+                                    <div class="nome_utente-passw">
+                                        <img src="password.png"> PASSWORD
+                                    </div>
+                                    <input class="casella" type="password">
+                                </div>
+                                <div class="flex_entra">
+                                    <button class="entra" type="submit">
+                                        <img src="entra.png">
+                                    </button>
+                                </div>
+                            <h3 class="in_evidenza">
+                                <img src="evidenza.png"> IN EVIDENZA
+                            </h3>
+                            <div class="evidence_box">
+                                <div id="raw1list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Insegnamenti con Teams </div></div>
+                                <div id="raw2list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Attivazione Insegnamenti </div></div>
+                                <div id="raw3list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Portale UniCT </div></div>
+                                <div id="raw4list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Portale Studenti </div></div>
+                                <div id="raw5list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Portale Docenti </div></div>
+                                <div id="raw6list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial Studenti </div></div>
+                                <div id="raw7list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial Docenti </div></div>
+                                <div id="raw8list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial export e import materiale didattico </div></div>
+                                <div id="raw9list1"><img class="arrowr" src="ARROWR.png"><div class="list1"> Tutorial prenotazioni </div></div>
+                            </div>
+                            <div class="actions"><b>LOGIN STUDENTI</b><br>
+                                il login degli studenti deve avvenire con le credenziali (Codice Fiscale e password) del nuovo portale studenti Smart_edu. Se non è stata impostata una password, fare accesso al portale studenti con SPID o CIE e impostarla tramite le impostazioni.
+                            </div>
+                            <div class="mobileapps">
+                                <h3 class="tablet_title">
+                                    <img src="smartphone.png"> App Mobile
+                                </h3>
+                                <div class="logocnt">
+                                    <a href="https://play.google.com/store/apps/details?id=unict.cea.studium&amp;hl=it">
+                                        <img class="mktlogo" src="play-store.png">
+                                    </a>
+                                    <a href="https://apps.apple.com/it/app/studium-unict/id1510024640">
+                                        <img class="mktlogo" src="app-store.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="content_with_menu">
+                        <div class="mininav">
+                            <div id="sceltamininav">
+                                <img id="browse" src="browse.png">
+                                <img id="libri" src="libri.png">
+                                <img id="musica" src="musica.png">
+                            </div>
+                            <div class="hidden" id="dipartimenti">
+                                <div id="Dipartimentinav">
+                                    Dipartimenti
+                                </div>
+                                <div class=searching><img class=search id="search" src="search.png"></div>
+                            </div>
+                            <div class="hidden" id="libriuniversitari">
+                                <div id="Libriuniversitarinav">
+                                    Libri Universitari
+                                </div>
+                                <div class=searching><img class=search id="search" src="search.png"></div>
+                            </div>
+
+                            <div class="hidden" id="musicauniversitaria">
+                                <div id="musicanav">
+                                    Musica Consigliata Per Studiare
+                                </div>
+                                <div class=searching><img class=search id="search" src="search.png"></div>
+                            </div>
+
+                        </div>
+                        <div class="box hidden" id="Dipartimenti_box">
+                            <div class="listd1" data-facolta="Alta Scuola di Formazione degli Insegnanti"> <img src="ASFI.png"> <br> ASFI </div>
+                            <div class="listd1" data-facolta="CHIRURGIA GENERALE E SPECIALITà MEDICO-CHIRURGICHE"> <img src="CHIRMED.png"> <br> CHIRMED</div>
+                            <div class="listd1" data-facolta="ECONOMIA E IMPRESA"><img src="DEI.png"> <br> DEI</div>
+                            <div class="listd1" data-facolta="FISICA ED ASTRONOMIA Ettore Majorana"><img src="DFA.png"> <br> DFA</div>
+                            <div class="listd1" data-facolta="Giurisprudenza"><img src="GIURISPRUDENZA.png"> <br> GIURISPRUDENZA</div>
+                            <div class="listd1" data-facolta="AGRICOLTURA,ALIMENTAZIONE E AMBIENTE"><img src="di3a.png"> <br> DI3A</div>
+                            <div class="listd1" data-facolta="INGEGNERIA CIVILE E ARCHITETTURA"><img src="DICAR.png"> <br> DICAR</div>
+                            <div class="listd1" data-facolta="INGEGNERIA ELETTRICA, ELETTRONICA E INFORMATICA"><img src="DIEEI.png"> <br> DIEEI</div>
+                            <div class="listd1" data-facolta="MATEMATICA E INFORMATICA"><img src="DMI.png"> <br> DMI</div>
+                            <div class="listd1" data-facolta="medicina clinica e sperimentale"><img src="MEDCLIN.png"> <br> MEDCLIN</div>
+                            <div class="listd1" data-facolta="scienze biologiche, geologiche e ambientali"><img src="DSBGA.png"> <br> DSGBA</div>
+                            <div class="listd1" data-facolta="scienze biomediche e biotecnologiche"><img src="BIOMETEC.png"> <br> BIOMETEC</div>
+                            <div class="listd1" data-facolta="scienze chimiche"><img src="DSC.png"> <br> DSC</div>
+                            <div class="listd1" data-facolta="scienze del farmaco e della salute"><img src="dsfs.png"> <br> DSFS</div>
+                            <div class="listd1" data-facolta="scienze della formazione"><img src="DISFOR.png"> <br> DISFOR</div>
+                            <div class="listd1" data-facolta="scienze mediche,chirurgiche e tecnologie avanzate G.F.INGRASSIA"><img src="DGFI.png"> <br> DGFI G.F.INGRASSIA</div>
+                            <div class="listd1" data-facolta="SCIENZE POLITICHE E SOCIALI"><img src="dsps.png"> <br> DSPS</div>
+                            <div class="listd1" data-facolta="scienze umanistiche"><img src="disum.png"> <br> DISUM</div>
+                            <div class="listd1" data-facolta="struttura didattica speciale di architettura, sede decentrata di siracusa"><img src="architettura.png"> <br> ARCHITETTURA</div>
+                        </div>
+                        <div class="box hidden" id="libri_box">
+                        </div>
+                        <div class="box hidden" id="musica_box">
+                        </div>
+                        <div id="Welcome">
+                            <h1 id="benvenuto">Benvenuto in Studium</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear">&nbsp;</div>
+                <div id="footer">
+                </div>
+
+        </body>
+        </div>
+</html>
